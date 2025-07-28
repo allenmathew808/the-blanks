@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Darker Grotesque', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-charcoal-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-charcoal-700 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-charcoal-800 text-charcoal-800 px-6 py-3 rounded-lg font-semibold hover:bg-charcoal-800 hover:text-white transition-colors duration-200;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 lg:py-24;
+  }
+
+  /* Typography utility classes */
+  .font-logo {
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 0.05em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .font-decorative {
+    font-family: 'Delicious Handrawn', cursive;
+  }
+
+  .font-body {
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+} 

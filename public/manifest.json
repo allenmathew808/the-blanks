@@ -1,0 +1,67 @@
+{
+  "name": "The Blanks - Graphic T-shirts with Soul",
+  "short_name": "The Blanks",
+  "description": "Graphic T-shirts and custom prints made for your voice and vibe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#1f1f1f",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["fashion", "shopping"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/model-girl-urban.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "The Blanks Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shop Collection",
+      "short_name": "Shop",
+      "description": "Browse our latest t-shirt collection",
+      "url": "/shop",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Custom Design",
+      "short_name": "Design",
+      "description": "Create your own custom t-shirt",
+      "url": "/custom",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
